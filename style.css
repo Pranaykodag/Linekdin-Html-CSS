@@ -1,0 +1,293 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+nav,main{
+    width: 100%;
+}
+nav{
+background-color: white;
+width: 100%;
+margin-top: -3rem;
+display: flex;
+gap: 2rem;
+align-items: center;
+position: fixed;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav>img{
+    height: 2.2rem;
+    justify-content: space-around;
+    align-items: center; 
+    display: flex;
+    
+}
+nav>label>input{
+    align-items: center;
+    display: flex;
+}
+nav>ul>li>a>img{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+
+}
+nav ul li a img[src="./img1.jpg"] {
+    
+    border-radius: 50%;
+}
+.logo2 img{
+    height: 2rem;
+    width: 2rem;
+
+}
+nav>ul{
+    margin: 1rem;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;list-style: none;
+}
+ul>li>premium.jpg{
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 0,8rem,0;
+    margin-top: 3rem;
+}
+.a2 
+{
+    background-image: linear-gradient(rgb(125, 149, 149),rgb(250, 247, 247), rgb(179, 239, 239));
+    height: 4rem;
+}
+ #a2 h2,p {
+   margin-left: 1rem;
+  
+}
+
+.a2>img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ 
+#A1>ul>li{
+margin-left: 1rem;
+padding: 0.2rem;
+list-style: none;
+}
+.middle{
+    width: 45%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.first-box>img{
+    width: 9rem;
+    height: 9em;
+    border-radius: 50%;margin-top: 0.8rem;   
+}
+.first-box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.A3{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+.A3>p{
+    width: 16rem;
+    height: 2rem;
+    background-color: white;
+    border: 1.2px solid royalblue;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.i1 i{
+    color: royalblue;
+}
+.i2 i{
+    color:red;
+}
+#second-box{
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+
+}
+
+#second-box>img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    justify-content: space-around;margin-top: 0.3rem;
+    text-decoration: none;
+ 
+}
+#a1{
+    width: 31rem;
+    height: 2.4rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1.8rem;
+    text-align:left;
+    font-size: medium;
+    padding: 0.8rem;margin-top: 0.8rem;
+ } 
+ #a1>ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.9rem;
+    gap: 1.2rem;
+    list-style: none;
+ }
+ #a1>ul>li>i{
+    color: royalblue;
+    color: orange;
+ }
+
+ .third-box{
+
+ }
+
+
+.right{
+    width: 20%;
+    margin-top: 2rem;
+}
+#right{
+    margin-top: 2rem;
+   
+
+}
+#right,p1,h4{
+    margin-left: 1rem;
+}
+#right h2,p,.alternate{
+   margin-left: 1rem;
+}
+.alternate{
+    font-size: small;
+    color: rgb(99, 98, 98);
+}
+#right,img{
+    height: 2.4rem;
+}
+.r{
+list-style: none;
+ margin-left: 1rem;
+ margin-top: 1rem;
+}
+.cascade{
+ margin-left: 19rem;
+ margin-top: -3rem;
+ font-size: larger;
+ font-weight: bolder;
+}
+.alternative{
+    color: rgb(99, 98, 98);
+    margin-top: -2.5rem;
+    margin-left: 2.8rem;
+  
+}
+
+div{
+    background-color: white;
+    margin-bottom:1rem;
+    border-radius: 0.8rem;
+    padding: 0 ,8rem ,0;
+} 
+
+  .medial-photo img{
+    align-items: center;
+    height: 16rem;
+  
+  }
+ 
+  .profile {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 2rem;
+   
+  }
+  
+  .profile-pic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    filter: brightness(1.2);
+  }
+  .user-info{
+    padding-top: 2rem;
+  }
+  .name {
+    font-weight: bold;
+    
+  } 
+  .name span {
+    font-weight: normal;
+    color: gray;
+    margin-top: 1rem;
+  }
+  .designation,
+  .timestamp {
+    font-size: 0.85rem;
+    color: gray;
+  }
+  .connect-btn{
+    color: royalblue;
+    font-weight: bolder;
+    margin-right: 1rem;
+  }
+  .icon>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+  }
+
+  /* footer */
+.footer{
+    background-color: antiquewhite;
+    gap: 1rem;
+}
+
+@media screen and (max-width:426px) {
+    main {
+        flex-direction: column;
+    }
+    .right, .middle {
+        
+        width: 100%;
+    }
+    .A3>p{
+        width: auto;
+        height: auto;
+        padding: 0.5rem,0.23rem;
+    }
+  
+}
